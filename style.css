@@ -37,7 +37,6 @@ body {
 
 #treasure1 img {
   position: absolute;
-  width: 500px;
-  height: 700px;
-  cursor: pointer;
+  width: 300px;
+  height: 500px;
 }
