@@ -28,12 +28,16 @@ body {
   color: white;
 }
 
-.navbar img {
-  height: 100px;
+.navbar h1 {
+  color: #eddd53;
+  margin: 0;
+  font-size: 24px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-h1 {
-  font-size: 2em;
-  margin: 0;
-  color: #eddd53;
+#treasure1 img {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  cursor: pointer;
 }
