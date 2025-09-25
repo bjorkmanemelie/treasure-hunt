@@ -1,14 +1,39 @@
 /* Denna Heads-Up-Display är det fritt fram att styla om och placera på andra ställen! */
 
 #hud {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background: #333;
-      color: white;
-      padding: 10px;
-      display: flex;
-      justify-content: space-between;
-      font-weight: bold;
-    }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+body {
+  margin-top: 50px; /* Ge plats för HUD */
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #2a7b9b, #57c785, #eddd53);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+}
+
+.navbar img {
+  height: 100px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  color: #eddd53;
+}

@@ -1,14 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="snippet" href="snippet.html">
     <title>Find the treasures</title>
+    <p>Can you find all the treasures hidden on the website?</p>
 </head>
+
 <body>
-    
+    <nav class="navbar">
+        <h1>Welcome to the Treasure Hunt!</h1>
+        <p>Explore the website and find all the hidden treasures.</p>
+
+        <div class="navbar-img">
+            <img src="pirate.png" alt="Treasure Hunt">
+        </div>
+
+        <div id="hud">
+            <div>Skatter hittade: <span id="foundCount">0</span>/10</div>
+            <div>Tid: <span id="timer">0</span> sek</div>
+        </div>
+    </nav>
+    <div id="treasures">
+        <div class="treasure" id="treasure1" style="top: 50px; left: 100px;">💎</div>
+        <div class="treasure" id="treasure2" style="top: 150px; left: 200px;">💰</div>
+        <div class="treasure" id="treasure3" style="top: 250px; left: 300px;">🪙</div>
+        <div class="treasure" id="treasure4" style="top: 350px; left: 400px;">📿</div>
+        <div class="treasure" id="treasure5" style="top: 450px; left: 500px;">🏆</div>
+        <div class="treasure" id="treasure6" style="top: 550px; left: 600px;">🎖️</div>
+        <div class="treasure" id="treasure7" style="top: 650px; left: 700px;">🛡️</div>
+        <div class="treasure" id="treasure8" style="top: 750px; left: 800px;">⚔️</div>
+        <div class="treasure" id="treasure9" style="top: 850px; left: 900px;">🔮</div>
+        <div class="treasure" id="treasure10" style="top: 950px; left: 1000px;">🗝️</div>
 
 
 
@@ -17,8 +43,7 @@
 
 
 
-
-
-    <script src="script.js"></script>
+        <script src="script.js"></script>
 </body>
+
 </html>
