@@ -21,6 +21,7 @@ body {
 
 .navbar {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
@@ -35,8 +36,26 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+.main-content h2 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+}
+
 #treasure1 img {
   position: absolute;
-  width: 300px;
-  height: 500px;
+  width: 450px;
+  height: 600px;
+  padding-left: 40px;
+}
+
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  margin: auto;
+  position: relative;
+  text-align: center;
+  color: white;
 }
