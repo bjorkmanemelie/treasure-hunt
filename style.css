@@ -36,26 +36,29 @@ body {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+#treasure1 img {
+  position: absolute;
+  width: 450px;
+  height: 600px;
+  padding-left: 40px;
+  cursor: pointer;
+}
+
 .main-content h2 {
   text-align: center;
   color: #333;
   margin-top: 20px;
 }
 
-#treasure1 img {
-  position: absolute;
-  width: 450px;
-  height: 600px;
-  padding-left: 40px;
-}
-
 .container1 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
   margin: auto;
   position: relative;
-  text-align: center;
-  color: white;
+}
+
+#treasure2 {
+  cursor: pointer;
 }
