@@ -33,7 +33,7 @@ treasure1.addEventListener("click", () => {
 
 // ... fortsätt för alla skatter ...
 const treasure2 = document.getElementById("treasure2");
-treasure1.addEventListener("click", () => {
+treasure2.addEventListener("click", () => {
   if (!treasure2.classList.contains("found")) {
     treasure2.classList.add("found"); // markerar att den är hittad
     foundCount++;
