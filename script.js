@@ -34,3 +34,22 @@ for (let i = 1; i <= 10; i++) {
     });
   }
 }
+
+//Simple explaination of the code:
+// querySelectorAll('[id^="treasure"]') - Hittar alla element vars ID börjar med "treasure"
+// .forEach() - Går igenom varje element i listan, ett i taget
+// treasure => - För varje element kallar vi det "treasure" (du kan kalla det vad du vill)
+// Koden inuti {} körs för varje skatt
+
+// Fördelar med forEach:
+
+// ✅ Kortare och renare kod
+// ✅ Mindre risk för fel (ingen räknare att hålla koll på)
+// ✅ Lättare att läsa och förstå
+
+// Skillnad mellan for-loop och forEach:
+
+// For-loop: "Gör detta X antal gånger"
+// forEach: "För varje sak i denna lista, gör detta"
+
+// I ditt skattsökningsspel betyder det: "För varje skatt på sidan, lägg till en click-listener som gör skatten klickbar!" 🎯
