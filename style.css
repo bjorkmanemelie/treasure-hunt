@@ -1,7 +1,7 @@
 /* Denna Heads-Up-Display är det fritt fram att styla om och placera på andra ställen! */
 
 #hud {
-  position: fixed;
+  position: auto;
   top: 0;
   left: 0;
   width: 100%;
